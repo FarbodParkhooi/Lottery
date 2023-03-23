@@ -3,7 +3,7 @@ from tkinter import *
 from random import randint as rnin
 # Create values:
 SelectNumbers=Tk()
-version=8.1  
+version=8.6
 NumbersList=[1,2,3,4,5,6,7,8,9]
 UserNumbers=[]
 # Def(s):
