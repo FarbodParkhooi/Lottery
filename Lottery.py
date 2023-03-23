@@ -11,6 +11,12 @@ LabelFour=Label(SelectNumbers,text='Number 4:',bg='#030314',fg='white',font=('',
 LabelFive=Label(SelectNumbers,text='Number 5:',bg='#030314',fg='white',font=('',10))
 LabelSix=Label(SelectNumbers,text='Number 6:',bg='#030314',fg='white',font=('',10))
 # .pack(s) |and| .place(s)
+LabelOne.place(relx=0.1,rely=0.1)
+LabelTwo.place(relx=0.4,rely=0.1)
+LabelThree.place(relx=0.7,rely=0.1)
+LabelFour.place(relx=0.1,rely=0.4)
+LabelFive.place(relx=0.4,rely=0.4)
+LabelSix.place(relx=0.7,rely=0.4)
 # Window options: 
 SelectNumbers.config(bg='#030314')
 SelectNumbers.resizable(False,False)
