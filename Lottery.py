@@ -8,6 +8,12 @@ NumbersList=[1,2,3,4,5,6,7,8,9]
 UserNumbers=[]
 # Def(s):
 def IfButtonNextClicked():
+    UserNumbers.append(EntryOne.get())
+    UserNumbers.append(EntryTwo.get())
+    UserNumbers.append(EntryThree.get())
+    UserNumbers.append(EntryFour.get())
+    UserNumbers.append(EntryFive.get())
+    UserNumbers.append(EntrySix.get())
     LabelOne.destroy()
     LabelTwo.destroy()
     LabelThree.destroy()
