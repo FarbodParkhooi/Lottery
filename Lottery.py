@@ -19,6 +19,12 @@ LabelFour=Label(SelectNumbers,text='Number 4:',bg='#030314',fg='white',font=('',
 LabelFive=Label(SelectNumbers,text='Number 5:',bg='#030314',fg='white',font=('',10))
 LabelSix=Label(SelectNumbers,text='Number 6:',bg='#030314',fg='white',font=('',10))
 ButtonNext=Button(SelectNumbers,text='next',bg='#030314',fg='white',padx=285,pady=70)
+EntryOne=Entry(SelectNumbers,width=10)
+EntryTwo=Entry(SelectNumbers,width=10)
+EntryThree=Entry(SelectNumbers,width=10)
+EntryFour=Entry(SelectNumbers,width=10)
+EntryFive=Entry(SelectNumbers,width=10)
+EntrySix=Entry(SelectNumbers,width=10)
 # .pack(s) |and| .place(s):
 LabelOne.place(relx=0.1,rely=0.1)
 LabelTwo.place(relx=0.4,rely=0.1)
