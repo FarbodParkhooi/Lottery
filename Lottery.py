@@ -32,6 +32,11 @@ def IfButtonNextClicked():
     # Create new values:
     NewWindow=Toplevel()
     # NewWindow options:
+    NewWindow.config(bg='#030314')
+    NewWindow.geometry('600x400')
+    NewWindow.resizable(False,False)
+    NewWindow.title('Lottery')
+    NewWindow.mainloop()
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
