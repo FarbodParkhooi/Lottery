@@ -3,6 +3,7 @@ from tkinter import *
 # Create values
 SelectNumbers=Tk()
 version=7.2  
+NumbersList=[1,2,3,4,5,6,7,8,9]
 # Def(s):
 def IfButtonNextClicked():
     LabelOne.destroy()
