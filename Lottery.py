@@ -2,7 +2,7 @@
 from tkinter import *
 # Create values
 SelectNumbers=Tk()
-version=3.4
+version=3.4 
 # Defs:
 def IfButtonNextClicked():
     None
