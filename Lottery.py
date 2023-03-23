@@ -2,7 +2,7 @@
 from tkinter import *
 # Create values
 SelectNumbers=Tk()
-version=1.2
+version=2.8
 # Create Label(s) and Button(s)
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
