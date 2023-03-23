@@ -2,6 +2,7 @@
 from tkinter import *
 # Create values
 SelectNumbers=Tk()
+version = 1.2
 # Create Label(s) and Button(s)
 # Window options: 
 SelectNumbers.config(bg='#030314')
