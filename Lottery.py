@@ -1,7 +1,7 @@
 # Create """" Lottery """" app !!
 from tkinter import *
 from random import randint as rnin
-# Create values
+# Create values:
 SelectNumbers=Tk()
 version=8.1  
 NumbersList=[1,2,3,4,5,6,7,8,9]
@@ -29,6 +29,7 @@ def IfButtonNextClicked():
     EntryFour.destroy()
     EntryFive.destroy()
     EntrySix.destroy()
+    # Create new values:
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
