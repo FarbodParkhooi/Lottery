@@ -30,6 +30,7 @@ def IfButtonNextClicked():
     EntryFive.destroy()
     EntrySix.destroy()
     # Create new values:
+    NewWindow=Toplevel()
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
