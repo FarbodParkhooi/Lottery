@@ -11,6 +11,13 @@ def IfButtonNextClicked():
     LabelFour.destroy()
     LabelFive.destroy()
     LabelSix.destroy()
+    ButtonNext.destroy()
+    EntryOne.destroy()
+    EntryTwo.destroy()
+    EntryThree.destroy()
+    EntryFour.destroy()
+    EntryFive.destroy()
+    EntrySix.destroy()
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
