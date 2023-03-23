@@ -18,7 +18,7 @@ LabelThree=Label(SelectNumbers,text='Number 3:',bg='#030314',fg='white',font=(''
 LabelFour=Label(SelectNumbers,text='Number 4:',bg='#030314',fg='white',font=('',10))
 LabelFive=Label(SelectNumbers,text='Number 5:',bg='#030314',fg='white',font=('',10))
 LabelSix=Label(SelectNumbers,text='Number 6:',bg='#030314',fg='white',font=('',10))
-ButtonNext=Button(SelectNumbers,text='next',bg='#030314',fg='white',padx=285,pady=70)
+ButtonNext=Button(SelectNumbers,text='next',bg='#030314',fg='white',padx=285,pady=70,command=IfButtonNextClicked)
 EntryOne=Entry(SelectNumbers,width=15,bg='#060624',fg='white',borderwidth=0)
 EntryTwo=Entry(SelectNumbers,width=15,bg='#060624',fg='white',borderwidth=0)
 EntryThree=Entry(SelectNumbers,width=15,bg='#060624',fg='white',borderwidth=0)
