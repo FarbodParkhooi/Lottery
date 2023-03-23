@@ -5,6 +5,7 @@ from random import randint as rnin
 SelectNumbers=Tk()
 version=7.2  
 NumbersList=[1,2,3,4,5,6,7,8,9]
+UserNumbers=[]
 # Def(s):
 def IfButtonNextClicked():
     LabelOne.destroy()
