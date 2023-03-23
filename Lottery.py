@@ -5,7 +5,12 @@ SelectNumbers=Tk()
 version=3.4 
 # Defs:
 def IfButtonNextClicked():
-    None
+    LabelOne.destroy()
+    LabelTwo.destroy()
+    LabelThree.destroy()
+    LabelFour.destroy()
+    LabelFive.destroy()
+    LabelSix.destroy()
 # Create Label(s) and Button(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
