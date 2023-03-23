@@ -10,6 +10,7 @@ LabelThree=Label(SelectNumbers,text='Number 3:',bg='#030314',fg='white',font=(''
 LabelFour=Label(SelectNumbers,text='Number 4:',bg='#030314',fg='white',font=('',10))
 LabelFive=Label(SelectNumbers,text='Number 5:',bg='#030314',fg='white',font=('',10))
 LabelSix=Label(SelectNumbers,text='Number 6:',bg='#030314',fg='white',font=('',10))
+ButtonNext=Button(SelectNumbers,text='next',bg='#030314',fg='white',padx=20,pady=30)
 # .pack(s) |and| .place(s)
 LabelOne.place(relx=0.1,rely=0.1)
 LabelTwo.place(relx=0.4,rely=0.1)
