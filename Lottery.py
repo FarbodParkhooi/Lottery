@@ -1,6 +1,5 @@
 # Create """" Lottery """" app !!
 from tkinter import *
-from random import randint as rnin
 # Create values:
 SelectNumbers=Tk()
 version=9.2
