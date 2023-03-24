@@ -48,6 +48,7 @@ def IfButtonNextClicked():
     Number4Label.place(relx=0.1,rely=0.4)
     Number5Label.place(relx=0.4,rely=0.4)
     Number6Label.place(relx=0.7,rely=0.4)
+    # number evaluation:
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
