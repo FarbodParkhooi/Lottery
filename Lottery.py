@@ -5,12 +5,12 @@ from random import randint as rnin
 SelectNumbers=Tk()
 version=9.2
 UserNumbers=[]
-Numbe1=rnin(1,9)
-Numbe2=rnin(1,9)
-Numbe3=rnin(1,9)
-Numbe4=rnin(1,9)
-Numbe5=rnin(1,9)
-Numbe6=rnin(1,9)
+Number1=rnin(1,9)
+Number2=rnin(1,9)
+Number3=rnin(1,9)
+Number4=rnin(1,9)
+Number5=rnin(1,9)
+Number6=rnin(1,9)
 # Def(s):
 def IfButtonNextClicked():
     # add numbers to my list:
@@ -34,6 +34,7 @@ def IfButtonNextClicked():
     EntryFour.destroy()
     EntryFive.destroy()
     EntrySix.destroy()
+    Numbe1Label=Label(SelectNumbers,text=Number1)
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
