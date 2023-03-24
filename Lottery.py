@@ -34,6 +34,7 @@ def IfButtonNextClicked():
     EntryFour.destroy()
     EntryFive.destroy()
     EntrySix.destroy()
+    # Create Label(s):
     Number1Label=Label(SelectNumbers,text=Number1,bg='#030314',fg='white',font=('',10))
     Number2Label=Label(SelectNumbers,text=Number2,bg='#030314',fg='white',font=('',10))
     Number3Label=Label(SelectNumbers,text=Number3,bg='#030314',fg='white',font=('',10))
