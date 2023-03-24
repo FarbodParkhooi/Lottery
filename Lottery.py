@@ -1,6 +1,7 @@
 # Create """" Lottery """" app !!
 from tkinter import *
 from random import randint as rnin
+from tkinter import messagebox as message
 # Create values:
 SelectNumbers=Tk()
 version=0.0
