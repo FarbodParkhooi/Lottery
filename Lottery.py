@@ -5,12 +5,12 @@ from random import randint as rnin
 SelectNumbers=Tk()
 version=0.0
 UserNumbers=[]
-Number1=rnin(1,9)
-Number2=rnin(1,9)
-Number3=rnin(1,9)
-Number4=rnin(1,9)
-Number5=rnin(1,9)
-Number6=rnin(1,9)
+Number1=f"number 1: {rnin(1,9)}"
+Number2=f"number 1: {rnin(1,9)}"
+Number3=f"number 1: {rnin(1,9)}"
+Number4=f"number 1: {rnin(1,9)}"
+Number5=f"number 1: {rnin(1,9)}"
+Number6=f"number 1: {rnin(1,9)}"
 # Def(s):
 def IfButtonNextClicked():
     # add numbers to my list:
@@ -42,6 +42,12 @@ def IfButtonNextClicked():
     Number5Label=Label(SelectNumbers,text=Number5,bg='#030314',fg='white',font=('',10))
     Number6Label=Label(SelectNumbers,text=Number6,bg='#030314',fg='white',font=('',10))
     # .place(s):
+    Number1Label.place(relx=0.1,rely=0.1)
+    Number2Label.place(relx=0.4,rely=0.1)
+    Number3Label.place(relx=0.7,rely=0.1)
+    Number4Label.place(relx=0.1,rely=0.4)
+    Number5Label.place(relx=0.4,rely=0.4)
+    Number6Label.place(relx=0.7,rely=0.4)
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
