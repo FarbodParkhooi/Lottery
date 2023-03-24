@@ -6,12 +6,12 @@ from tkinter import messagebox as message
 SelectNumbers=Tk()
 version=0.0
 UserNumbers=[]
-Number1=f"number one is: {rnin(1,9)}"
-Number2=f"number two is: {rnin(1,9)}"
-Number3=f"number three is: {rnin(1,9)}"
-Number4=f"number four is: {rnin(1,9)}"
-Number5=f"number five is: {rnin(1,9)}"
-Number6=f"number six is: {rnin(1,9)}"
+Number1=rnin(1,9)
+Number2=rnin(1,9)
+Number3=rnin(1,9)
+Number4=rnin(1,9)
+Number5=rnin(1,9)
+Number6=rnin(1,9)
 # Def(s):
 def IfButtonNextClicked():
     # add numbers to my list:
@@ -36,12 +36,12 @@ def IfButtonNextClicked():
     EntryFive.destroy()
     EntrySix.destroy()
     # Create Label(s):
-    Number1Label=Label(SelectNumbers,text=Number1,bg='#030314',fg='white',font=('',10))
-    Number2Label=Label(SelectNumbers,text=Number2,bg='#030314',fg='white',font=('',10))
-    Number3Label=Label(SelectNumbers,text=Number3,bg='#030314',fg='white',font=('',10))
-    Number4Label=Label(SelectNumbers,text=Number4,bg='#030314',fg='white',font=('',10))
-    Number5Label=Label(SelectNumbers,text=Number5,bg='#030314',fg='white',font=('',10))
-    Number6Label=Label(SelectNumbers,text=Number6,bg='#030314',fg='white',font=('',10))
+    Number1Label=Label(SelectNumbers,text=f'Number one is: {Number1}',bg='#030314',fg='white',font=('',10))
+    Number2Label=Label(SelectNumbers,text=f'Number two is: {Number2}',bg='#030314',fg='white',font=('',10))
+    Number3Label=Label(SelectNumbers,text=f'Number three is: {Number3}',bg='#030314',fg='white',font=('',10))
+    Number4Label=Label(SelectNumbers,text=f'Number four is: {Number4}',bg='#030314',fg='white',font=('',10))
+    Number5Label=Label(SelectNumbers,text=f'Number five is: {Number5}',bg='#030314',fg='white',font=('',10))
+    Number6Label=Label(SelectNumbers,text=f'Number six is: {Number6}',bg='#030314',fg='white',font=('',10))
     # .place(s):
     Number1Label.place(relx=0.1,rely=0.1)
     Number2Label.place(relx=0.4,rely=0.1)
