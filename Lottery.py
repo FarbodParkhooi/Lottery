@@ -41,6 +41,7 @@ def IfButtonNextClicked():
     Number4Label=Label(SelectNumbers,text=Number4,bg='#030314',fg='white',font=('',10))
     Number5Label=Label(SelectNumbers,text=Number5,bg='#030314',fg='white',font=('',10))
     Number6Label=Label(SelectNumbers,text=Number6,bg='#030314',fg='white',font=('',10))
+    # .place(s):
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
