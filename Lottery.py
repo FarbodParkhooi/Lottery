@@ -3,7 +3,6 @@ from tkinter import *
 # Create values:
 SelectNumbers=Tk()
 version=9.2
-NumbersList=[1,2,3,4,5,6,7,8,9]
 UserNumbers=[]
 # Def(s):
 def IfButtonNextClicked():
