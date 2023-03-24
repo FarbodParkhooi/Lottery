@@ -49,6 +49,13 @@ def IfButtonNextClicked():
     Number5Label.place(relx=0.4,rely=0.4)
     Number6Label.place(relx=0.7,rely=0.4)
     # number evaluation:
+    if Number1 == UserNumbers[0]:
+        if Number1 == UserNumbers[1]:
+            if Number1 == UserNumbers[2]:
+                if Number1 == UserNumbers[3]:
+                    if Number1 == UserNumbers[4]:
+                        if Number1 == UserNumbers[5]:
+                            None
 # Create Label(s) |and| Button(s) |and| Entry(s):
 LabelOne=Label(SelectNumbers,text='Number 1:',bg='#030314',fg='white',font=('',10))
 LabelTwo=Label(SelectNumbers,text='Number 2:',bg='#030314',fg='white',font=('',10))
