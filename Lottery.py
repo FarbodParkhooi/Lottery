@@ -5,6 +5,12 @@ from random import randint as rnin
 SelectNumbers=Tk()
 version=9.2
 UserNumbers=[]
+Numbe1=rnin(1,9)
+Numbe2=rnin(1,9)
+Numbe3=rnin(1,9)
+Numbe4=rnin(1,9)
+Numbe5=rnin(1,9)
+Numbe6=rnin(1,9)
 # Def(s):
 def IfButtonNextClicked():
     # add numbers to my list:
